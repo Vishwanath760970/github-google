@@ -1,3 +1,4 @@
+//moved navbar js under layout folder
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
