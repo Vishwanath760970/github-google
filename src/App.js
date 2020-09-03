@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Navbar from './Components/Navbar';
+import Navbar from './components/layout/Navbar';
+import UserItem from './components/users/UserItem';
 
 class App extends Component {
   render() {
-    const name = 'John doe';
     return (
       <div className='App'>
         <Navbar />
+        <UserItem />
       </div>
     );
   }
