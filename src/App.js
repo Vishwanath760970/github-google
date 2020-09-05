@@ -44,7 +44,7 @@ class App extends Component {
             showClear={this.state.users.length > 0 ? true : false}
           />
 
-          <Users loading={this.state.loading} users={this.state.users} />
+          <Users loading={loading} users={users} />
         </div>
       </div>
     );
